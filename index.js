@@ -1,7 +1,10 @@
 const app = require("express")();
 
 app.get("/", (req, res)=>{
-    res.send("pomba do divino");
+    res.send("Receba");
 });
 
-app.listen(8000);
+let port = 8000;
+app.listen(port, () => {
+    console.log(`Servidor rodando em http://localhost:${port}`);
+});
