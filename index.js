@@ -1,7 +1,6 @@
 const express = require("express");
 const app = express();
 
-
 app.use(express.urlencoded({extended: true}))
 app.use(express.json());
 
@@ -12,7 +11,7 @@ app.get("/", (req, res)=>{
     res.send("Receba");
 });
 
-let port = 8000;
+let port = 8000; //8000 Default Port
 app.listen(port, (err) => {
     if(err){
         console.log("Erro: "+JSONstringify(err));
