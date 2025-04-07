@@ -4,11 +4,12 @@ class VeiculoController{
     static formCadastro(req, res) {
         res.sendFile(path.join(__dirname, ".. ", "views", "formVeiculo.html"));
     }
+    
     static cadastrar(req, res) {
-        
+        res.json(req.body);
     }
 
     static buscarTodos(req, res) {}
 }
 
-module.exports = VeiculoController
+module.exports = VeiculoController;
