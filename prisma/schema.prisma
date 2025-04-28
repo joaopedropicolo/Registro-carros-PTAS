@@ -8,11 +8,9 @@ datasource db {
 }
 
 model Veiculo{
- id Int @id @default(autoincrement())
+id Int @id @default(autoincrement())
 placa String
 modelo String
 cor String
 ano Int
-
-
 }

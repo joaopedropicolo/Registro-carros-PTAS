@@ -13,7 +13,7 @@ app.get("/cadastro", (req, res) => {
 });
 
 app.get("/", (req, res) => {
-    res.send("Receba");
+    res.send("Está funcionando!");
 });
 
 let port = 8000; // 8000 Default Port
