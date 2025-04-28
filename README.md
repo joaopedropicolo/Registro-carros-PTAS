@@ -11,7 +11,8 @@ Projeto de PTAS 2 orientado pelo professor Lucas.
 
 Siga os passos abaixo para rodar o projeto localmente:
 
-# npm i
+```bash
+npm i
 
 ### 1. Baixe as dependências
 
